@@ -1,0 +1,147 @@
+
+    	<?php
+        
+        class Jumpgatetemplate extends CI_Controller {
+        
+        public function index()
+	{
+		
+			echo 'jumpgate array template';	
+            //Instructions
+            // do not edit this page
+            // Step one
+            // Check Wiki constellation page to see how many "Borders" the constellation has.
+            // borders = jumpgates
+            // in constellation function, set jumpgates to the number of borders.
+            //
+            //Use copy/paste to insert the data keys from below.
+            // paste up to the nuber of gates required.
+            // eg 14 gates..  then include all the way up to the bottom of the 14th ID here.
+            //
+            //
+            // When the data array keys are complete in the function, it is time to input the data.
+            //
+            // First step, go to http://en.wikipedia.org/wiki/88_modern_constellations_by_area , then click to go to the constellation that matches the function being edited.
+            // in the destName fields,  enter in order the Borders.. In order that they are on the wiki page.  this will make it easier to do the final data crosscheck.
+            // Enter the destName for all of the gates.
+            //
+            // 
+            //Here is example of a finished jumpgate
+            //
+            //
+            //'destID' => 1 , 						
+			//			'destName1' => " Hydra " ,
+			//			'destAnchor1' => "cartography/jumpgate/Hydra" ,
+			//			'destQuad1' => " SQ2 " ,
+            
+            //
+            // A space is required before and after the text inside the two string variables.
+            // string just means not numbers
+            //destID variable isnt a string, so therefor it doesnt require quotes ""
+            
+            
+            
+            //destID  - This is the galaxy size rank from http://en.wikipedia.org/wiki/88_modern_constellations_by_area
+            // the table can be sorted by colums for easier grouping.
+            //destQuad is also from that page.. it will be NQ1 NQ2 NQ3 NQ4 SQ1 SQ2 SQ3 SQ4
+            // use capitals.
+            //
+            // so, conclusion.. ensure there are no variables above the number of jumpgates or error will occur.
+            // if we define jgs at 13, and server reads 'destID14' => 200 , it will error the page 
+            
+			
+						//	
+                        'destID' => 200 , 						
+						'destName1' => "  " ,
+						'destAnchor1' => "cartography/jumpgate/" ,
+						'destQuad1' => " ??? " ,
+						//
+                        
+						'destID2' => 200 , 						
+						'destName2' => "  " ,
+						'destAnchor2' => "cartography/jumpgate/" ,
+						'destQuad2' => " ??? " ,
+						//
+						'destID3' => 200 , 					
+						'destName3' => " " ,
+						'destAnchor3' => "cartography/jumpgate/" ,
+						'destQuad3' =>  " ??? " ,
+						//
+						'destID4' => 200 ,					
+						'destName4' => " " ,
+						'destAnchor4' => "cartography/jumpgate/" ,
+						'destQuad4' => " ??? " ,
+						//
+						'destID5' => 200 ,
+                        'destName5' => " " ,
+						'destAnchor5' => "cartography/jumpgate/" ,
+						'destQuad5' => " ??? " ,
+						//
+						'destID6' => 200 ,
+                        'destName6' => "  " ,
+						'destAnchor6' => "cartography/jumpgate/" ,
+						'destQuad6' => " ??? " ,
+						//
+						'destID7' => 200 ,
+                        'destName7' => "  " ,
+						'destAnchor7' => "cartography/jumpgate/" ,
+						'destQuad7' => " ??? " ,
+						//
+                        'destID8' => 200 ,
+						'destName8' => "  " ,
+						'destAnchor8' => "cartography/jumpgate/" ,
+						'destQuad8' => " ??? " ,
+						//
+                        'destID9' => 200 ,
+						'destName9' => "  " ,
+						'destAnchor9' => "cartography/jumpgate/" ,
+						'destQuad9' => " ??? " ,
+						//
+                        'destID10' => 200 ,
+                        'destName10' => "  " ,
+						'destAnchor10' => "cartography/jumpgate/" ,
+						'destQuad10' => " ??? " ,
+						//
+                        'destID11' => 200 ,
+						'destName11' => "  " ,
+						'destAnchor11' => "cartography/jumpgate/" ,
+						'destQuad11' => " ??? " ,
+						//
+                        'destID12' => 200 ,
+						'destName12' => " " ,
+						'destAnchor12' => "cartography/jumpgate/" ,
+						'destQuad12' => " ??? " ,
+						//
+                        'destID13' => 200 ,
+						'destName13' => "  " ,
+						'destAnchor13' => "cartography/jumpgate/" ,
+						'destQuad13' => " ??? " ,
+						//
+                        'destID14' => 200 ,
+						'destName14' => "  " ,
+						'destAnchor14' => "cartography/jumpgate/" ,
+						'destQuad14' => " ??? " ,
+                        //
+                        'destID15' => 200 ,
+						'destName15' => "  " ,
+						'destAnchor15' => "cartography/jumpgate/" ,
+						'destQuad15' => " ??? " ,
+						//
+                        'destID16' => 200 ,
+						'destName16' => " " ,
+						'destAnchor16' => "cartography/jumpgate/" ,
+						'destQuad16' => " ??? " ,
+						//
+                  
+						// end of array keys
+	               
+            
+            
+            
+            
+            
+            
+	}
+        }	
+
+?>
