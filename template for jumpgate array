@@ -1,14 +1,20 @@
 
-    	<?php
+	<?php
         
         class Jumpgatetemplate extends CI_Controller {
         
         public function index()
 	{
-		
+		// At the very bottom, you can see a complete function for constellation of Hydra.
+            // Task is to have this down accurately for all 88 constellations.
+            //
+            //
+            // Numbers 80 - 85 need doing.
+            //
+            //
+            
 			echo 'jumpgate array template';	
             //Instructions
-            // do not edit this page
             // Step one
             // Check Wiki constellation page to see how many "Borders" the constellation has.
             // borders = jumpgates
@@ -134,9 +140,95 @@
 						//
                   
 						// end of array keys
-	               
+        }
             
-            
+          	public function Hydra()
+	{
+	// JG COMPLETE
+		$data = array(
+						'id' => 1 ,
+                        'worldImage' => "../img/planets/1.jpg",
+						'currentLocation' => " Hydra ",
+						'currentQuad' => " SQ2 ",
+						'currentFamily' => " Hercules Alliance" ,
+		
+						//Jumpgates
+						'gates' => 14 ,
+						//
+						'destID1' => 62 ,
+						'destName1' => " Antlia " ,
+						'destAnchor1' => "cartography/jumpgate/Antlia" ,
+						'destQuad1' => "SQ2" ,
+						//	
+						'destID2' => 31 , 						
+						'destName2' => " Cancer " ,
+						'destAnchor2' => "cartography/jumpgate/Cancer" ,
+						'destQuad2' => " NQ2 " ,
+						//
+						'destID3' => 71 , 					
+						'destName3' => " Canis Minor" ,
+						'destAnchor3' => "cartography/jumpgate/CanisMinor" ,
+						'destQuad3' => "NQ2" ,
+						//
+						'destID4' => 9 ,					
+						'destName4' => " Centaurus " ,
+						'destAnchor4' => "cartography/jumpgate/Centaurus" ,
+						'destQuad4' => "SQ3" ,
+						//
+						'destID5' => 70 ,
+                        'destName5' => " Corvus " ,
+						'destAnchor5' => "cartography/jumpgate/Corvus" ,
+						'destQuad5' => "SQ3" ,
+						//
+						'destID6' => 53 ,
+                        'destName6' => " Crater " ,
+						'destAnchor6' => "cartography/jumpgate/Crater" ,
+						'destQuad6' => "SQ2" ,
+						//
+						'destID7' => 12 ,
+                        'destName7' => " Leo " ,
+						'destAnchor7' => "cartography/jumpgate/Leo" ,
+						'destQuad7' => " NQ2 " ,
+						//
+                        'destID8' => 29 ,
+						'destName8' => " Libra " ,
+						'destAnchor8' => "cartography/jumpgate/Libra" ,
+						'destQuad8' => " SQ3 " ,
+						//
+                        'destID9' => 46 ,
+						'destName9' => " Lupus " ,
+						'destAnchor9' => "cartography/jumpgate/Lupus" ,
+						'destQuad9' => "SQ3" ,
+						//
+                        'destID10' => 35 ,
+                        'destName10' => " Monoceros " ,
+						'destAnchor10' => "cartography/jumpgate/Monoceros" ,
+						'destQuad10' => "NQ2" ,
+						//
+                        'destID11' => 20 ,
+						'destName11' => " Puppis " ,
+						'destAnchor11' => "cartography/jumpgate/Puppis" ,
+						'destQuad11' => "SQ2" ,
+						//
+                        'destID12' => 65 ,
+						'destName12' => " Pyxis" ,
+						'destAnchor12' => "cartography/jumpgate/Pyxis" ,
+						'destQuad12' => "SQ2" ,
+						//
+                        'destID13' => 47 ,
+						'destName13' => " Sextans " ,
+						'destAnchor13' => "cartography/jumpgate/Sextans" ,
+						'destQuad13' => "SQ2" ,
+						//
+                        'destID14' => 2 ,
+						'destName14' => " Virgo " ,
+						'destAnchor14' => "cartography/jumpgate/Virgo" ,
+						'destQuad14' => " SQ3 " ,
+						// end of array keys
+			);
+		
+		$this->load->view('skin/jumpgateSkin', $data);
+	
             
             
             
